@@ -3,7 +3,7 @@ export default function App(){
   <div class="row">
 
     <div class="leftside animate__animated animate__fadeInUp">
-      <img src="./me.jpg" alt="Me!"></img>
+      <img src="src/me.jpg" alt="Me!"></img>
       <h3>Danny Peelen</h3>
       <ul>
         <li><i class="bi bi-linkedin"> </i><a href="https://linkedin.com/in/daniel-peelen">LinkedIn</a></li>
