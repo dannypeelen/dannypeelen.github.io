@@ -42,7 +42,7 @@
 }
 
 .leftside, .rightside{
-    height:100vh;
+    height:200vh;
     padding:0px;
 }
 
@@ -86,7 +86,7 @@
     border-radius:2%;
 }
 
-.rightside h1,h3,p{
+.rightside h1,h3,h4,p{
     margin-top:30px;
     margin-left:20px;
 }
@@ -110,7 +110,7 @@
     border-radius:4%;
 }
 
-.features input, button, p, h1{
+.features input, button, p, h1, h5{
     margin-top:5px;
     margin-left:20px;
 }

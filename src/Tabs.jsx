@@ -39,7 +39,7 @@ export default function App() {
           </a></li>
 
           <li><a href="extras.html" onClick={(e) => handleNavClick("extras", e)}>
-            Extras
+            Portfolio
           </a></li>
         </ul>
       </nav>
