@@ -1,6 +1,3 @@
-Here's a professional README script for your personal website:
-
----
 
 # Personal Website
 
