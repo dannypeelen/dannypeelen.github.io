@@ -7,8 +7,8 @@ export default function App(){
       <img src={BASE_URL+"src/me.jpg"} alt="Me!"></img>
       <h3>Danny Peelen</h3>
       <ul>
-        <li><i class="bi bi-linkedin"> </i><a href="https://linkedin.com/in/daniel-peelen">LinkedIn</a></li>
-        <li><i class="bi bi-github"> </i><a href="https://github.com/dpeelen9">GitHub</a></li>
+        <li><i class="bi bi-linkedin"> </i><a href="https://linkedin.com/in/daniel-peelen" target="_blank">LinkedIn</a></li>
+        <li><i class="bi bi-github"> </i><a href="https://github.com/dpeelen9" target="_blank">GitHub</a></li>
         <li></li>
       </ul>
     </div>
@@ -18,7 +18,7 @@ export default function App(){
     </div>
 
     <div class="rightside animate__animated animate__fadeInUp">
-      <p>Hi</p>
+      <h1>Hello</h1>
     </div>
 
     
