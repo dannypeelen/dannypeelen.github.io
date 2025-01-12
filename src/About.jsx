@@ -12,6 +12,14 @@ export default function About(){
         <li><i class="bi bi-github"> </i><a href="https://github.com/dpeelen9">GitHub</a></li>
         <li></li>
       </ul>
+      <div>
+        <hr/>
+        <h1>Updates</h1>
+        <h4>12.27.2024</h4>
+        <p>I launched this site, with Flashcard maker in the works!</p>
+        <h4>01.08.2025</h4>
+        <p>Re-structured the site to include more of my portfolio and move parts! Flashcard maker is getting moved.</p>
+      </div>
     </div>
     
     <div class="bar">
@@ -31,7 +39,7 @@ export default function About(){
       <p>I switched from soccer to playing volleyball my freshman year of high school, and I never looked back. I love the fast pace of volleyball and the physicality it requires, especially playing grass and beach doubles outdoors. Over the summer, and often during breaks, you can find me playing tournaments with friends hitting as either an opposite or more recenlty setting! Here at the University of Pittsburgh I am also on the club team, being part of 7 out of 55 people to make the team during my tryouts. Up until now, I also helped our nationally-ranked #1 Women's Volleyball team in practice as well as assisting in their scouting reports, analyzing data.</p>
       <hr/>
       <h1>Hungary</h1>
-      <p></p>
+      <p>My mother was born and raised in Budapest, Hungary before moving to the US for her PhD. Because of this, I spent 2012-2013 living in Budapest and went to school there for 2nd grade. As part of that I became fluent in Hungarian (and unfortunately lost it all in the years following). My Hungarian roots and something I dearly treasure and is why I am minoring in Hungarian hear at Pitt. I am currently proficient in Hungarian being able to live there on my own no problem. I also had to pleasure last summer to study abroad in Debrecen, where I learned about the History of Modern Hungary!</p>
     </div>
 
     

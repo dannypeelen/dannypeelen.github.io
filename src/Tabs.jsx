@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { StrictMode } from 'react';
-import Home from '/src/Home.jsx';
-import About from '/src/About.jsx';
-import Extras from '/src/Extras.jsx';
+import Portfolio from '/src/Home.jsx';
+import Home from '/src/About.jsx';
+import Resume from '/src/Extras.jsx';
 
 export default function App() {
   // State to keep track of the current page
@@ -18,10 +18,10 @@ export default function App() {
     switch (currentPage) {
       case "home":
         return (<StrictMode><Home /></StrictMode>);
-      case "about":
-        return (<StrictMode><About /></StrictMode>);
       case "extras":
-        return (<StrictMode><Extras /></StrictMode>);
+        return (<StrictMode><Portfolio /></StrictMode>);
+      case "resume":
+        return (<StrictMode><Resume /></StrictMode>);
       default:
         return <h1>Page Not Found</h1>;
     }
@@ -31,15 +31,14 @@ export default function App() {
     <div>
       <nav class="navbar">
         <ul>
-          <li><a href="index.html" onClick={(e) => handleNavClick("home", e)}>
-            Danny Peelen
+          <li><a href="" onClick={(e) => handleNavClick("home", e)}>
+            About Me
           </a></li>
-          <li><a href="about.html" onClick={(e) => handleNavClick("about", e)}>
-            About
-          </a></li>
-
-          <li><a href="extras.html" onClick={(e) => handleNavClick("extras", e)}>
+          <li><a href="" onClick={(e) => handleNavClick("extras", e)}>
             Portfolio
+          </a></li>
+          <li><a href="" onClick={(e) => handleNavClick("resume", e)}>
+            Resume
           </a></li>
         </ul>
       </nav>

@@ -8,6 +8,10 @@ function FileUpload(){
     };
 
     const handleUpload = () => {
+    if (!selectedFile) {
+        alert("Please select a file!");
+        return;
+    }
     if (selectedFile) {
     // Send the file to your server using an API call
     // ...
