@@ -172,3 +172,27 @@ body{
 .project b{
     padding:15px;
 }
+
+.project-row{
+    width:100%;
+    margin:5px;
+    float:left;
+}
+
+.project{
+    float:left;
+    position:relative;
+    width:30%;
+    background-color:white;
+    border-radius:10%;
+    margin:10px;
+    transition: transform 0.3s ease;
+}
+
+.project:hover{
+    transform:scale(1.05);
+}
+
+.project b{
+    padding:15px;
+}

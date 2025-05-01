@@ -83,7 +83,7 @@ export default function Extras(){
           <h2>Citizenship</h2>
             <p><b>USA, Hungary</b></p>
           <hr/>
-          <p>Check out the full PDF here: <a href="Daniel Peelen Resume M.pdf">Daniel Peelen Resume</a></p>
+          <p>Check out the full PDF here: <a href="./Daniel Peelen Resume M.pdf">Daniel Peelen Resume</a></p>
         </div>
       </div>
     </div>

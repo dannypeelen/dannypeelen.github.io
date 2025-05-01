@@ -4,7 +4,7 @@ export default function About(){
   <div class="row">
 
     <div class="leftside animate__animated animate__fadeInUp">
-      <img src="Portrait.jpeg" alt="Me!"></img>
+      <img src="./Portrait.jpeg" alt="Me!"></img>
       <h3>Danny Peelen</h3>
       <ul>
         <li><i class="bi bi-envelope"> </i><a href="mailto:dapeelen@gmail.com">dapeelen@gmail.com</a></li>
@@ -15,6 +15,8 @@ export default function About(){
       <div>
         <hr/>
         <h1>Updates</h1>
+        <h4>04.30.2025</h4>
+        <p>I have been working on various language modeling interests, trying to learn different approaches and getting comfortable using PyTorch. As for the website, I have updated my project portfolio and improved the UI!</p>
         <h4>03.05.2025</h4>
         <p>Updated my resume and gave some updates (projects & PNC internship)! Also tinkered with some style changes to improve the UI.</p>
         <h4>01.08.2025</h4>
