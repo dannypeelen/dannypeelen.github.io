@@ -1,6 +1,7 @@
 @import '/home/daniel/Documents/dannypeelen.github.io-main/node_modules/bootstrap/dist/css/bootstrap.min.css';
 //@import 'C:\Users\daniel\node_modules\animate.css';
 
+
 .navbar{
     background-color:rgba(18, 18, 18, 0.3);
     font-size:24px;
@@ -14,6 +15,7 @@
     text-decoration:none;
     text-align:right;
     display:block;
+    transition: transform 0.3s ease;
 }
 
 .navbar ul{
@@ -24,6 +26,7 @@
 
 .navbar a:hover{
     background-color:gainsboro;
+    transform: scale(1.05);
 }
 
 .navbar li{
@@ -50,14 +53,23 @@ body{
     padding:0px;
 }
 
+.leftside:hover, .rightside:hover{
+    transform: scale(1.05);
+}
+
 .leftside{
-    float:left;
-    width:28%;
+    float:none;
+    width:30%;
     text-align:center;
     background-color:rgb(231, 231, 231, 0.9);
     border-radius:3%;
     margin-left:30px;
     padding:30px;
+    transition: transform 0.3s ease;
+}
+
+.leftside:hover{
+    transform:scale(1.05);
 }
 
 
@@ -89,6 +101,11 @@ body{
     background-color:rgb(231, 231, 231, 0.9);
     width:65%;
     border-radius:2%;
+    transition: transformer 0.3s ease;
+}
+
+.rightside:hover{
+    transform: scale(1.05);
 }
 
 .rightside h1,h3,h4,p{
@@ -132,3 +149,26 @@ body{
     width:10%;
 }
 
+.project-row{
+    width:100%;
+    margin:5px;
+    float:left;
+}
+
+.project{
+    float:left;
+    position:relative;
+    width:30%;
+    background-color:white;
+    border-radius:10%;
+    margin:10px;
+    transition: transform 0.3s ease;
+}
+
+.project:hover{
+    transform:scale(1.05);
+}
+
+.project b{
+    padding:15px;
+}
