@@ -38,11 +38,11 @@ export default function Extras(){
           <hr/>
           <h2>Projects</h2>
           <ul>
-          <li><p><b>Multi-Layered Perceptron</b></p>
+          <li><p><b>GPT-2 Prototype</b></p>
             <p><i>University of Pittsburgh</i></p>
-            <p><li>Designed and implemented an effective neural network using a ReLU activation function built with Python’s NumPy library.
+            <p><li>Implemented a minimal GPT-2 architecture from scratch in PyTorch, including core components like multi-head causal self-attention, GELU-activated feedforward layers, positional embeddings, and residual connections.
             </li>
-            <li>Effectiveness tested by the MNIST dataset and used PyPlot and cross entropy loss to model accuracy data.</li></p>
+            <li>Developed a custom model loader to integrate and align pretrained HuggingFace GPT-2 weights, resolving parameter mismatches and shape incompatibilities.</li></p>
             </li>
             <li><p><b>Flashcard Autogenerator</b></p>
               <p><i>University of Pittsburgh</i></p>
