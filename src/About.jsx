@@ -4,7 +4,7 @@ export default function About(){
   <div class="row">
 
     <div class="leftside animate__animated animate__fadeInUp">
-      <img src="./Portrait.jpeg" alt="Me!"></img>
+      <img src="src/Portrait.jpeg" alt="Me!"></img>
       <h3>Danny Peelen</h3>
       <ul>
         <li><i class="bi bi-envelope"> </i><a href="mailto:dapeelen@gmail.com">dapeelen@gmail.com</a></li>
