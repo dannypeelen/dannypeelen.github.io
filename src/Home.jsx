@@ -1,6 +1,7 @@
+import myImage from './Portrait.jpeg';
+
 export default function App(){
   const BASE_URL = import.meta.env.BASE_URL;
-
 
 
   return(
@@ -8,7 +9,7 @@ export default function App(){
 
     <div class="leftside animate__animated animate__fadeInUp">
       <div>
-        <img src="./Portrait.jpeg" alt="Me!"></img>
+        <img src={myImage} alt="Me!"></img>
         <h3>Danny Peelen</h3>
         <ul>
           <li><i class="bi bi-envelope"> </i><a href="mailto:dapeelen@gmail.com">dapeelen@gmail.com</a></li>

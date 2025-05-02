@@ -1,10 +1,12 @@
+import myImage from './Portrait.jpeg';
+
 export default function About(){
   const BASE_URL = import.meta.env.BASE_URL;
   return(
   <div class="row">
 
     <div class="leftside animate__animated animate__fadeInUp">
-      <img src="./Portrait.jpeg" alt="Me!"></img>
+      <img src={myImage} alt="Me!"></img>
       <h3>Danny Peelen</h3>
       <ul>
         <li><i class="bi bi-envelope"> </i><a href="mailto:dapeelen@gmail.com">dapeelen@gmail.com</a></li>
